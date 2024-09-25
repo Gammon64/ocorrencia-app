@@ -1,9 +1,11 @@
+import { Link } from "expo-router";
 import { StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
   return (
     <View style={styles.container}>
       <Text>Ocorrência APP</Text>
+      <Link href="/(auth)/SignIn">Abrir ocorrência</Link>
     </View>
   );
 }
